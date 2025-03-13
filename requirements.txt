@@ -8,3 +8,4 @@ requests>=2.31.0
 ipykernel>=6.0.0
 kagglehub>=0.2.1
 keras>=2.15.0
+python-dotenv
