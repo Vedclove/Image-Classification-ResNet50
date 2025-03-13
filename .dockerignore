@@ -1,0 +1,32 @@
+# Ignore the virtual environment
+venv/
+env/
+*.pyc
+*.pyo
+__pycache__/
+*.swp
+
+# Ignore Git repository files
+.git/
+.gitignore
+
+# Ignore Jupyter notebooks (optional)
+*.ipynb
+.ipynb_checkpoints/
+
+# Ignore system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Ignore dataset directories (if applicable)
+datasets/
+PetImages/
+
+# Ignore unnecessary local files
+*.png
+*.jpg
+*.jpeg
+*.mp4
