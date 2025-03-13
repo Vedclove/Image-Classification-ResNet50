@@ -2,9 +2,11 @@ import streamlit as st
 import requests
 from PIL import Image
 import io
-
+import os
+from dotenv import load_dotenv
+load_dotenv()
 # Flask API URL
-FLASK_API_URL = "http://35.224.36.27:8080/predict"
+FLASK_API_URL = f"http://{os.getenv('VM_IP')}:8080/predict"
 
 # Streamlit UI
 st.title("🐶🐱 Image Classification - ResNet50")
